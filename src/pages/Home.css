@@ -1,0 +1,241 @@
+/* General Styling */
+.home-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  /* background: linear-gradient(135deg, #6a11cb, #2575fc); Gradient background */
+  /* background: linear-gradient(135deg, #6e7f7e, #b8c6db); */
+
+  /* background: linear-gradient(135deg, #2a2a72, #009ffd); /* Dark purple gradient */
+  /* color: #fff;  */
+
+  background: linear-gradient(135deg, #d6e1e5, #1f88d7); 
+
+  /* background: linear-gradient(135deg, #f8cdda, #1e3c72);  */
+
+  /* background: url('https://www.transparenttextures.com/patterns/diagonal-stripes.png'), linear-gradient(135deg, #00aaff, #0e3a8a);
+  background-blend-mode: overlay; */
+
+  /* background: linear-gradient(135deg, #ff9a9e, #fad0c4);  */
+
+  /* background: linear-gradient(135deg, #00c6ff, #0072ff);  */
+
+  /* background: url('https://www.transparenttextures.com/patterns/old-wall.png'), linear-gradient(135deg, #f0c27b, #4b1248);
+  background-blend-mode: multiply; */
+
+  /* background: url('https://www.transparenttextures.com/patterns/triangles.png');
+  background-size: cover;
+  background-blend-mode: overlay; */
+
+  /* background: linear-gradient(135deg, rgba(254, 254, 254, 0.8), rgba(185, 185, 185, 0.4)); */
+
+
+  font-family: 'Roboto', sans-serif;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.site-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  color: #ddd;
+  margin-top: 10px;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  padding: 12px 20px;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 450px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #2575fc;
+  background-color: #fff;
+}
+
+.search-bar::placeholder {
+  color: #888;
+}
+
+/* Create Post Button Styling */
+.create-post-button {
+  background-color: #2575fc;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-button:hover {
+  background-color: #1f5dbb;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.create-post-link {
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* Blog List Styling */
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.blog-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Info */
+.blog-info {
+  padding: 20px;
+}
+
+.blog-date {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.blog-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.blog-body {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Blog Image Styling */
+.blog-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.blog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-img:hover {
+  transform: scale(1.1);
+}
+
+/* Blog Actions */
+.blog-actions {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.read-more-button,
+.edit-button,
+.delete-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.read-more-button {
+  background-color: #2575fc;
+  color: white;
+}
+
+.read-more-button:hover {
+  background-color: #1f5dbb;
+  transform: translateY(-2px);
+}
+
+.edit-button {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #ec971f;
+  transform: translateY(-2px);
+}
+
+.delete-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 15px;
+  }
+
+  .site-title {
+    font-size: 2.5rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+  }
+
+  .blog-list {
+    grid-template-columns: 1fr;
+  }
+
+  .search-bar {
+    max-width: 100%;
+  }
+}

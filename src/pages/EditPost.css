@@ -1,0 +1,121 @@
+/* General Styling */
+.edit-container {
+  width: 100%;
+  max-width: 600px; /* Reduced max-width for a smaller form */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the entire page */
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form container styling */
+.form-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around form */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* Date input styling */
+input[type="date"] {
+  padding: 10px;
+}
+
+/* Buttons styling */
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.save-button,
+.cancel-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.cancel-button {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #ec971f;
+  transform: translateY(-2px);
+}
+
+/* Loading & Error Styling */
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .edit-container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}

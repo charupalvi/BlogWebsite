@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Airborne Technology",
+      "body": "Exploring the advancements in airborne technology that are reshaping modern aviation.",
+      "date": "2024-11-24",
+      "image": "https://www.airbornetechnologies.at/media/filer_public_thumbnails/filer_public/fe/d3/fed39377-e95e-4135-b2aa-96dbf6c28e78/once_you_go_airborne_linx.jpeg__800x0_q85_subsampling-2.webp"
+    },
+    {
+      "id": 2,
+      "title": "The Future of AI",
+      "body": "How artificial intelligence is revolutionizing industries and our everyday lives.",
+      "date": "2024-11-25",
+      "image": "https://www.digitalogy.co/blog/wp-content/uploads/2023/11/What-will-AI-look-like-in-5-years-1200x675.webp"
+    },
+    {
+      "id": 3,
+      "title": "Green Energy Innovations",
+      "body": "Discover the latest innovations in green energy that aim to combat climate change.",
+      "date": "2024-11-26",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-105352284,imgsize-64032,width-1200,height=765,overlay-etenergy/renewable/innovations-in-clean-energy-technologies-a-key-driver-for-esg-excellence.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Space Exploration: What's Next?",
+      "body": "A look at the ambitious goals and projects shaping the future of space exploration.",
+      "date": "2024-11-27",
+      "image": "https://media.licdn.com/dms/image/v2/D4D12AQGn__JnMTzsLw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698663926418?e=2147483647&v=beta&t=SJZ-vBIWL_3G4Zc7bYScVJvwqW7D6qfVFxKIFHi3gHI"
+    },
+    {
+      "id": 5,
+      "title": "Blockchain Beyond Cryptocurrency",
+      "body": "Exploring the diverse applications of blockchain technology in various industries.",
+      "date": "2024-11-28",
+      "image": "https://cioviews.com/wp-content/uploads/2024/09/Blockchain-Beyond-Cryptocurrency.jpg"
+    }
+  ]
+}
